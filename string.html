@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>  
+        window.onload = function(){  
+            var btn = document.getElementById("button");
+            btn.onclick =function(){  
+                const num = f1.num.value;
+                const str = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '+', '-', '*', '/', '=', ];
+                var s1 = '';
+                var i =1;
+                if (num<=10000000){
+                    while (i<=num){
+                        var j = Math.floor(Math.random() * 70)+8;
+                        // console.log(j);
+                        // console.log(str[j]);
+                        s1 = s1 + str[j];
+                        i++;
+                    }
+                    console.log(s1);
+                    document.getElementById("p1").innerHTML = s1;
+                }
+                else{
+                    window.alert("<=10000000")
+                }
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="f1" name="f1">
+        <input type="number" name="num" id="num">
+        <input type="button" name="button" value="生成" id="button">
+    </form>
+    <div>
+        <p id="p1">内容</p>
+    </div>
+</body>
+</html>
