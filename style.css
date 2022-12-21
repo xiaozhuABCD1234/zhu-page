@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+}
+a:link {
+    color:cornflowerblue;
+}
+
+a:visited {
+    color:cornflowerblue;
+}
+    
+a:hover {
+    color:darkcyan;
+}
+
+a:active {
+    color:cadetblue;
+}
