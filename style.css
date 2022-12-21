@@ -2,17 +2,17 @@ a{
     text-decoration: none;
 }
 a:link {
-    color:cornflowerblue;
+    color:#f03752;
 }
 
 a:visited {
-    color:cornflowerblue;
+    color:#f03752;
 }
     
 a:hover {
-    color:darkcyan;
+    color:#6495ed;
 }
 
 a:active {
-    color:cadetblue;
+    color:#ee2746;
 }
