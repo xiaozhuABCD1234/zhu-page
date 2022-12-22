@@ -91,26 +91,26 @@ h1{
 }
 
 #img1 {
-    background-image: url("img\\img1.png");
+    background-image: url("img\\img6.jpg");
     background-size: cover;
 }
 
 #img2 {
-    background-image: url("img\\img2.png");
+    background-image: url("img\\img2.jpg");
     background-size: cover;
 }
 
 .content-1 {
-    background: url("img\\img3.png") no-repeat fixed center;
+    background: url("img\\img3.jpg") no-repeat fixed center;
     background-size: cover;
 }
 
 .content-2 {
-    background: url("img\\img4.png") no-repeat fixed center;
+    background: url("img\\img4.jpg") no-repeat fixed center;
     background-size: cover;
 }
 
 .content-3 {
-    background: url("img\\img5.png") no-repeat fixed center;
+    background: url("img\\img5.jpg") no-repeat fixed center;
     background-size: cover;
 }
