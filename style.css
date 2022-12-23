@@ -1,24 +1,27 @@
 body{
-    background-image: url("background.png");
+    background-color: rgb(37,37,47);
 }
 div{
-    background-color:rgba(255,235,217, 0.7);
+    background-color:rgba(33,47,73, 0.7);
 }
 a{
     text-decoration: none;
 }
+h1{
+    color: rgb(105,195,165);
+}
 a:link {
-    color:#f03752;
+    color:rgb(105,195,165);
 }
 
 a:visited {
-    color:#f03752;
+    color:rgb(105,195,165);
 }
     
 a:hover {
-    color:#6495ed;
+    color:rgb(100, 149, 237);
 }
 
 a:active {
-    color:#ee2746;
+    color:rgb(105,195,165);
 }
