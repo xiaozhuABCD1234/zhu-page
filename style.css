@@ -102,10 +102,21 @@ canvas{
 }
 
 body{
-    background-color: rgb(37,37,47);
+    background-color: rgb(33,47,73);
 }
-div{
-    background-color:rgba(33,47,73, 0.7);
+.main{
+    position: absolute;
+    z-index: 10;
+    width: 300px;
+    height: 220px;
+    top: 50%;
+    left: 50%;
+    margin: -110px 0 0 -100px;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+    background-color:rgb(33,47,73);
 }
 a{
     text-decoration: none;
