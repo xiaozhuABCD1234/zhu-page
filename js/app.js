@@ -12,7 +12,6 @@ particlesJS.load('particles-js', 'particles.json', function() {
 /* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
-  
   {
     "particles": {
       "number": {
@@ -73,7 +72,7 @@ particlesJS('particles-js',
         "direction": "none",
         "random": false,
         "straight": false,
-        "out_mode": "out",
+        "out_mode": "bounce",
         "attract": {
           "enable": false,
           "rotateX": 600,
@@ -86,7 +85,7 @@ particlesJS('particles-js',
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
@@ -109,7 +108,7 @@ particlesJS('particles-js',
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 150
         },
         "push": {
           "particles_nb": 4
