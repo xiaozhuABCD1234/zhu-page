@@ -122,26 +122,18 @@ body{
 a{
     text-decoration: none;
 }
-h1{
-    color: rgb(105,195,165);
-}
-a:link {
-    color:rgb(105,195,165);
-}
 
-a:visited {
-    color:rgb(105,195,165);
+a:link ,a:visited,a:active{
+    color:#d9faff;
 }
-    
+  
 a:hover {
     color:rgb(100, 149, 237);
 }
 
-a:active {
-    color:rgb(105,195,165);
-}
 #head{
     font-size: 25px;
+    color: #00bbf0;
 }
 a{
     font-size: 20px;
