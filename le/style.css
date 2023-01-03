@@ -1,6 +1,6 @@
-div{
+div {
     border-radius: 25px;
     background: linear-gradient(145deg, #695b5b, #584d4d);
-    box-shadow:  20px 20px 7px #473d3d,
-                -20px -20px 7px #7d6d6d;
+    box-shadow: 20px 20px 7px #473d3d,
+        -20px -20px 7px #7d6d6d;
 }

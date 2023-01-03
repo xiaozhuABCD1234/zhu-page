@@ -45,7 +45,7 @@ ul {
     display: grid;
     height: 97vh;
     align-content: center;
-    grid-template-areas: ". tree-top ."". tree-middle ."". tree-bottom ."". tree-stem .";
+    grid-template-areas: ". tree-top ." ". tree-middle ." ". tree-bottom ." ". tree-stem .";
     grid-template-columns: 100px auto 100px;
     transform: rotateY(50deg) scaley(1.5);
 }
@@ -1224,60 +1224,60 @@ ul {
 
 @keyframes starLight {
     0% {
-    background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 42%, rgba(255, 242, 173, 0.2) 58%, rgba(255, 255, 255, 0.1) 100%);
+        background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 42%, rgba(255, 242, 173, 0.2) 58%, rgba(255, 255, 255, 0.1) 100%);
     }
 
     15% {
-    background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 41%, rgba(255, 242, 173, 0.2) 59%, rgba(255, 255, 255, 0.1) 100%);
+        background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 41%, rgba(255, 242, 173, 0.2) 59%, rgba(255, 255, 255, 0.1) 100%);
     }
 
     25% {
-    background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 40%, rgba(255, 242, 173, 0.2) 60%, rgba(255, 255, 255, 0.1) 100%);
+        background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 40%, rgba(255, 242, 173, 0.2) 60%, rgba(255, 255, 255, 0.1) 100%);
     }
 
     35% {
-    background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 39%, rgba(255, 242, 173, 0.2) 61%, rgba(255, 255, 255, 0.1) 100%);
+        background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 39%, rgba(255, 242, 173, 0.2) 61%, rgba(255, 255, 255, 0.1) 100%);
     }
 
     50% {
-    background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 38%, rgba(255, 242, 173, 0.2) 62%, rgba(255, 255, 255, 0.1) 100%);
+        background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 38%, rgba(255, 242, 173, 0.2) 62%, rgba(255, 255, 255, 0.1) 100%);
     }
 
     65% {
-    background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 37%, rgba(255, 242, 173, 0.2) 63%, rgba(255, 255, 255, 0.1) 100%);
+        background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 37%, rgba(255, 242, 173, 0.2) 63%, rgba(255, 255, 255, 0.1) 100%);
     }
 
     75% {
-    background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 36%, rgba(255, 242, 173, 0.2) 64%, rgba(255, 255, 255, 0.1) 100%);
+        background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 36%, rgba(255, 242, 173, 0.2) 64%, rgba(255, 255, 255, 0.1) 100%);
     }
 
     85% {
-    background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 35%, rgba(255, 242, 173, 0.2) 65%, rgba(255, 255, 255, 0.1) 100%);
+        background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 35%, rgba(255, 242, 173, 0.2) 65%, rgba(255, 255, 255, 0.1) 100%);
     }
 
     100% {
-    background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 34%, rgba(255, 242, 173, 0.2) 66%, rgba(255, 255, 255, 0.1) 100%);
+        background: radial-gradient(ellipse at center, gold 0%, rgba(255, 240, 158, 0.5) 34%, rgba(255, 242, 173, 0.2) 66%, rgba(255, 255, 255, 0.1) 100%);
     }
 }
 
 @keyframes lights {
     0% {
-    box-shadow: 0 0 0px 0px #fff;
+        box-shadow: 0 0 0px 0px #fff;
     }
 
     25% {
-    box-shadow: 0 0 1px 1px #fff;
+        box-shadow: 0 0 1px 1px #fff;
     }
 
     50% {
-    box-shadow: 0 0 2px 2px #fff;
+        box-shadow: 0 0 2px 2px #fff;
     }
 
     75% {
-    box-shadow: 0 0 3px 3px #fff;
+        box-shadow: 0 0 3px 3px #fff;
     }
 
     100% {
-    box-shadow: 0 0 4px 4px #fff;
+        box-shadow: 0 0 4px 4px #fff;
     }
 }
